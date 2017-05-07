@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7920" started-at="2017-05-07T07:43:50Z" finished-at="2017-05-07T07:43:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7920" started-at="2017-05-07T07:43:50Z" finished-at="2017-05-07T07:43:58Z">
+      <class name="com.framework.testscripts.DeletePlaceAPIValidation">
+        <test-method status="PASS" signature="addAPlace()[pri:0, instance:com.framework.testscripts.DeletePlaceAPIValidation@75bd9247]" name="addAPlace" duration-ms="663" started-at="2017-05-07T03:43:57Z" finished-at="2017-05-07T03:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAPlace -->
+      </class> <!-- com.framework.testscripts.DeletePlaceAPIValidation -->
+      <class name="com.framework.testscripts.AddPlaceAPIValidation">
+        <test-method status="PASS" signature="loadPropFile()[pri:0, instance:com.framework.testscripts.AddPlaceAPIValidation@48140564]" name="loadPropFile" is-config="true" duration-ms="38" started-at="2017-05-07T03:43:50Z" finished-at="2017-05-07T03:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropFile -->
+        <test-method status="PASS" signature="loadPropFile()[pri:0, instance:com.framework.testscripts.DeletePlaceAPIValidation@75bd9247]" name="loadPropFile" is-config="true" duration-ms="2" started-at="2017-05-07T03:43:50Z" finished-at="2017-05-07T03:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropFile -->
+        <test-method status="PASS" signature="loadPropFile()[pri:0, instance:com.framework.testscripts.RetrievePlaceAPIValidation@1d251891]" name="loadPropFile" is-config="true" duration-ms="1" started-at="2017-05-07T03:43:50Z" finished-at="2017-05-07T03:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPropFile -->
+        <test-method status="PASS" signature="addPlace()[pri:0, instance:com.framework.testscripts.AddPlaceAPIValidation@48140564]" name="addPlace" duration-ms="6209" started-at="2017-05-07T03:43:50Z" finished-at="2017-05-07T03:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlace -->
+      </class> <!-- com.framework.testscripts.AddPlaceAPIValidation -->
+      <class name="com.framework.testscripts.RetrievePlaceAPIValidation">
+        <test-method status="PASS" signature="getPlaceAPI()[pri:0, instance:com.framework.testscripts.RetrievePlaceAPIValidation@1d251891]" name="getPlaceAPI" duration-ms="971" started-at="2017-05-07T03:43:56Z" finished-at="2017-05-07T03:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceAPI -->
+      </class> <!-- com.framework.testscripts.RetrievePlaceAPIValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

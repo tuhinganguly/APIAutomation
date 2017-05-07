@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.framework.testscripts.AddPlaceAPIValidation">
+        <methods>
+          <include name="postData"/>
+          <include name="loadPropFile"/>
+        </methods>
+      </class> <!-- com.framework.testscripts.AddPlaceAPIValidation -->
+      <class name="com.framework.testscripts.DeletePlaceAPIValidation">
+        <methods>
+          <include name="addAPlace"/>
+        </methods>
+      </class> <!-- com.framework.testscripts.DeletePlaceAPIValidation -->
+      <class name="com.framework.testscripts.RetrievePlaceAPIValidation">
+        <methods>
+          <include name="getPlaceAPI"/>
+        </methods>
+      </class> <!-- com.framework.testscripts.RetrievePlaceAPIValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
